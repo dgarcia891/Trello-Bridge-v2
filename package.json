@@ -1,0 +1,19 @@
+{
+  "name": "trello-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "jest tests/unit --passWithNoTests",
+    "build": "node scripts/build.js",
+    "scan": "node scripts/security_scan.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-chrome": "^0.8.0",
+    "jest-environment-jsdom": "^29.0.0"
+  }
+}
